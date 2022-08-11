@@ -1,19 +1,89 @@
 <script>
 	import HireMe from '../../../comopnents/hireme/index.svelte';
 	import DownloadCV from '../../../comopnents/download-cv/index.svelte';
+	import ExperienceIcon from './../../../assets/images/icons/experience.svg';
+	import ProjectIcon from './../../../assets/images/icons/projects.svg';
+	import SupportIcon from './../../../assets/images/icons/support.svg';
+
+	const aboutMetaDetails = [
+		{
+			icon: ExperienceIcon,
+			title: '5 years+',
+			subTitle: 'Experience'
+		},
+		{
+			icon: ProjectIcon,
+			title: '700+',
+			subTitle: 'Projects'
+		},
+		{
+			icon: SupportIcon,
+			title: '24/7',
+			subTitle: 'Customer Support'
+		}
+	];
 </script>
 
-<div>
-	<p>A bit</p>
-	<h3>About Me</h3>
-	<p>
+<div class="about-text-container">
+	<p class="sup-text">A bit</p>
+	<h3 class="title">About Me</h3>
+	<p class="text">
 		I'm a top online marketer and branding expert, I started my career by lauching the popular
 		metaverse design, in just a few short years, I built the brand to millions of social media
 		followers and websites visitors. I also created award-winning online products with millions of
 		dolloars in online sales you want, you never get personalized experiences and they can be
 		upwards of $1000 on hour.
 	</p>
-
+	<div class="meta-details">
+		{#each aboutMetaDetails as meta}
+			<div class="meta-card">
+				<img src={meta.icon} alt="" />
+				<div>
+					<div class="meta-title">{meta.title}</div>
+					{meta.subTitle}
+				</div>
+			</div>
+		{/each}
+	</div>
 	<HireMe />
 	<DownloadCV />
 </div>
+
+<style scoped lang="scss">
+	@import './../../../assets/scss/variable';
+
+	.about-text-container {
+		font-family: $poppins-regular;
+		.sup-text {
+			color: $primary;
+			text-transform: uppercase;
+			font-size: 22px;
+		}
+		.title {
+			color: rgba($black, 0.81);
+			font-size: 36px;
+		}
+
+		.text {
+			color: rgba($black, 0.5);
+			line-height: 26px;
+		}
+
+		.meta-details {
+			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
+			row-gap: 16px;
+			margin: 50px 0;
+			.meta-card {
+				width: 50%;
+				display: flex;
+				gap: 12px;
+				.meta-title {
+					color: $primary;
+					font-size: 20px;
+				}
+			}
+		}
+	}
+</style>

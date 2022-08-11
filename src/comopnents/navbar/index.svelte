@@ -25,19 +25,15 @@
 						<a class="nav-link active" aria-current="page" href="/">About Me</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="/">Services</a>
+						<a class="nav-link" aria-current="page" href="/">Services</a>
 					</li>
 
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="/">Portfolio</a>
+						<a class="nav-link " aria-current="page" href="/">Portfolio</a>
 					</li>
 
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="/">Testimonials</a>
-					</li>
-
-					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="/">Contact Me</a>
+						<a class="nav-link" aria-current="page" href="/">Contact Me</a>
 					</li>
 				</ul>
 				<HireMe />

@@ -1,6 +1,7 @@
 <script>
-	import './../assets/scss/_global.scss';
+	import ContactMe from '../comopnents/footer/index.svelte';
 	import Navbar from '../comopnents/navbar/index.svelte';
+	import './../assets/scss/_global.scss';
 </script>
 
 <div class="main">
@@ -8,6 +9,8 @@
 		<Navbar />
 		<slot />
 	</div>
+	<br /> <br />
+	<ContactMe />
 </div>
 
 <style scoped lang="scss">

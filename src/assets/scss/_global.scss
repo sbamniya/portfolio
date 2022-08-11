@@ -23,10 +23,12 @@
     src: url("./../fonts/poppins/Poppins-Bold.ttf");
 }
 
-
-
 body {
     font-family: $primary-font;
+
+    img {
+        max-width: 100%;
+    }
 }
 
 .text-right{
