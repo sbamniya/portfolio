@@ -18,10 +18,12 @@
 	@import './../../../assets/scss/variable';
 
 	.feedback-box {
+		position: absolute;
+		bottom: 0;
 		background: $white;
 		box-shadow: 0px 2.72153px 34.0191px rgba(19, 23, 61, 0.1);
 		border-radius: 6.80382px;
-		width: 50%;
+		width: 375px;
 		padding: 12px;
 		display: flex;
 		flex-wrap: wrap;
@@ -43,9 +45,11 @@
 				font-family: $poppins-regular;
 				.name {
 					color: $black;
+					font-size: 12px;
 				}
 				.date {
 					color: rgba($color: $black, $alpha: 0.5);
+					font-size: 12px;
 				}
 			}
 		}
@@ -54,7 +58,7 @@
 			font-family: $poppins-regular;
 			font-style: normal;
 			font-weight: 400;
-			font-size: 16px;
+			font-size: 12px;
 			line-height: 20px;
 			color: rgba($color: $black, $alpha: 0.7);
 			margin-bottom: 0;

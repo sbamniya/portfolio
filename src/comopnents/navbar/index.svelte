@@ -4,10 +4,8 @@
 
 <nav class="navbar navbar-expand-lg">
 	<div class="row w-100">
-		<div class="col-4">
+		<div class="collapse navbar-collapse nav-box" id="navbarNav">
 			<a class="navbar-brand brand" href="/">Sonu</a>
-		</div>
-		<div class="col-8">
 			<button
 				class="navbar-toggler"
 				type="button"
@@ -19,25 +17,23 @@
 			>
 				<span class="navbar-toggler-icon" />
 			</button>
-			<div class="collapse navbar-collapse nav-box" id="navbarNav">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="/">About Me</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" aria-current="page" href="/">Services</a>
-					</li>
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="/">About Me</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" aria-current="page" href="/">Services</a>
+				</li>
 
-					<li class="nav-item">
-						<a class="nav-link " aria-current="page" href="/">Portfolio</a>
-					</li>
+				<li class="nav-item">
+					<a class="nav-link " aria-current="page" href="/">Portfolio</a>
+				</li>
 
-					<li class="nav-item">
-						<a class="nav-link" aria-current="page" href="/">Contact Me</a>
-					</li>
-				</ul>
-				<HireMe />
-			</div>
+				<li class="nav-item">
+					<a class="nav-link" aria-current="page" href="/">Contact Me</a>
+				</li>
+			</ul>
+			<HireMe />
 		</div>
 	</div>
 </nav>
@@ -48,10 +44,16 @@
 	.nav-box {
 		display: flex;
 		justify-content: space-between;
+		padding: 0;
 
 		.nav-link {
 			text-transform: uppercase;
 			cursor: pointer;
+		}
+		.navbar-nav {
+			width: 50%;
+			justify-content: space-around;
+			font-size: 14px;
 		}
 	}
 	.brand {

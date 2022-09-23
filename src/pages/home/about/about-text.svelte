@@ -24,65 +24,77 @@
 	];
 </script>
 
-<div class="about-text-container">
-	<p class="sup-text">A bit</p>
-	<h3 class="title">About Me</h3>
-	<p class="text">
-		I'm a top online marketer and branding expert, I started my career by lauching the popular
-		metaverse design, in just a few short years, I built the brand to millions of social media
-		followers and websites visitors. I also created award-winning online products with millions of
-		dolloars in online sales you want, you never get personalized experiences and they can be
-		upwards of $1000 on hour.
-	</p>
-	<div class="meta-details">
-		{#each aboutMetaDetails as meta}
-			<div class="meta-card">
-				<img src={meta.icon} alt="" />
-				<div>
-					<div class="meta-title">{meta.title}</div>
-					{meta.subTitle}
+<section class="about-section">
+	<div class="about-text-container">
+		<p class="sup-text">A bit</p>
+		<h3 class="title">About Me</h3>
+		<p class="text">
+			I'm a top online marketer and branding expert, I started my career by lauching the popular
+			metaverse design, in just a few short years, I built the brand to millions of social media
+			followers and websites visitors. I also created award-winning online products with millions of
+			dolloars in online sales you want, you never get personalized experiences and they can be
+			upwards of $1000 on hour.
+		</p>
+		<div class="meta-details">
+			{#each aboutMetaDetails as meta}
+				<div class="meta-card">
+					<img src={meta.icon} alt="" />
+					<div>
+						<div class="meta-title">{meta.title}</div>
+						{meta.subTitle}
+					</div>
 				</div>
-			</div>
-		{/each}
+			{/each}
+		</div>
+		<HireMe />
+		<DownloadCV />
 	</div>
-	<HireMe />
-	<DownloadCV />
-</div>
+</section>
 
 <style scoped lang="scss">
 	@import './../../../assets/scss/variable';
+	@import './../../../assets/scss/mixins';
+	.about-section {
+		padding: 80px 0;
+		.about-text-container {
+			font-family: $poppins-regular;
+			.sup-text {
+				color: $primary;
+				text-transform: uppercase;
+				font-size: 18px;
+			}
+			.title {
+				color: rgba($black, 0.81);
+				font-size: 36px;
+			}
 
-	.about-text-container {
-		font-family: $poppins-regular;
-		.sup-text {
-			color: $primary;
-			text-transform: uppercase;
-			font-size: 22px;
-		}
-		.title {
-			color: rgba($black, 0.81);
-			font-size: 36px;
-		}
+			.text {
+				color: rgba($black, 0.5);
+				font-size: 16px;
+				line-height: 26px;
+			}
 
-		.text {
-			color: rgba($black, 0.5);
-			line-height: 26px;
-		}
-
-		.meta-details {
-			width: 100%;
-			display: flex;
-			flex-wrap: wrap;
-			row-gap: 16px;
-			margin: 50px 0;
-			.meta-card {
-				width: 50%;
+			.meta-details {
+				width: 100%;
 				display: flex;
-				gap: 12px;
-				.meta-title {
-					color: $primary;
-					font-size: 20px;
+				flex-wrap: wrap;
+				row-gap: 16px;
+				margin: 50px 0;
+				.meta-card {
+					width: 50%;
+					display: flex;
+					gap: 12px;
+					@include mq(xs) {
+						width: 100%;
+					}
+					.meta-title {
+						color: $primary;
+						font-size: 16px;
+					}
 				}
+			}
+			img {
+				width: 30px;
 			}
 		}
 	}

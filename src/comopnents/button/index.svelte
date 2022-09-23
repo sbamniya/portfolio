@@ -16,6 +16,7 @@
 		color: $white;
 		min-width: 120px;
 		padding: 10px;
+		font-weight: 600;
 
 		&.icon {
 			background-color: unset;

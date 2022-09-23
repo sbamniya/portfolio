@@ -84,7 +84,7 @@
 	];
 </script>
 
-<div>
+<section class="case-studies py-5">
 	<TitleAndSubtitle title="CASE STUDY" subTitle="My Case Studies" />
 	{#each CaseStudies as caseStudy, index}
 		<StudyCard
@@ -95,7 +95,8 @@
 			imagePlacement={index % 2 === 0 ? 'start' : 'end'}
 		/>
 	{/each}
-</div>
+</section>
 
-<style lang="scss">
+<style scoped lang="scss">
+	@import './../../../assets/scss/variable';
 </style>

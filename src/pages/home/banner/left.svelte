@@ -3,7 +3,7 @@
 	import DownloadCV from '../../../comopnents/download-cv/index.svelte';
 </script>
 
-<div class="main-box">
+<section class="main-box">
 	<p class="hello-text">Hello I am,</p>
 	<h3 class="name">Sonu Bamniya</h3>
 	<p class="title">Full Stack JavaScript Developer</p>
@@ -14,7 +14,7 @@
 	</p>
 	<HireMe />
 	<DownloadCV>Download CV</DownloadCV>
-</div>
+</section>
 
 <style scoped lang="scss">
 	@import './../../../assets/scss/variable';
@@ -23,7 +23,7 @@
 		font-family: $poppins-regular;
 		.hello-text {
 			color: $primary;
-			font-size: 24px;
+			font-size: 18px;
 		}
 
 		.name {
@@ -34,11 +34,12 @@
 
 		.title {
 			color: $green;
-			font-size: 24px;
+			font-size: 22px;
 		}
 		.description {
 			line-height: 26px;
 			color: rgba($color: $black, $alpha: 0.5);
+			font-size: 16px;
 		}
 	}
 </style>

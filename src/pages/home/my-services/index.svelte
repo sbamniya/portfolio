@@ -24,23 +24,17 @@
 	];
 </script>
 
-<div class="service-details">
+<section class="service-details py-5">
 	<TitleAndSubtitle title="Services" subTitle="Check My Services" />
 	<div class="row services-container">
 		{#each Services as service}
-			<div class="col-4">
+			<div class="col-lg-4 col-xs-12">
 				<Card image={service.image} title={service.title} description={service.description} />
 			</div>
 		{/each}
 	</div>
-</div>
+</section>
 
 <style scoped lang="scss">
 	@import './../../../assets/scss/variable';
-
-	.service-details {
-		.services-container {
-			margin-top: 36px;
-		}
-	}
 </style>

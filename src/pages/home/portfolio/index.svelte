@@ -17,16 +17,16 @@
 	];
 </script>
 
-<div class="portfolio-container">
+<section class="portfolio-container py-5">
 	<TitleAndSubtitle title="PORTFOLIO" subTitle="People Lie Work Don't" />
 	<div class="row">
 		{#each PortfolioItems as item}
-			<div class="col-6">
+			<div class="col-sm-6 col-xs-12">
 				<img src={item.image} alt="" class="w-100" />
 			</div>
 		{/each}
 	</div>
-</div>
+</section>
 
 <style scoped lang="scss">
 	.portfolio-container {
