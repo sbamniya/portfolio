@@ -6,7 +6,6 @@
 <div class="row w-100 align-items-center position-relative py-5">
 	<div class="col-lg-6 col-xs-12">
 		<Left />
-		<br />
 		<Feedback />
 	</div>
 

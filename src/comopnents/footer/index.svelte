@@ -81,6 +81,7 @@
 
 <style scoped lang="scss">
 	@import './../../assets/scss/variable';
+	@import './../../assets/scss/mixins';
 
 	.contact-us-container {
 		background: linear-gradient(
@@ -132,6 +133,9 @@
 			.footer-rightside {
 				display: flex;
 				justify-content: space-around;
+				@include mq(sm) {
+					display: block;
+				}
 				ul {
 					padding: 0;
 					list-style: none;

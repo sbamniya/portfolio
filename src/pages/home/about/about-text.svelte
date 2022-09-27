@@ -56,6 +56,9 @@
 	@import './../../../assets/scss/mixins';
 	.about-section {
 		padding: 80px 0;
+		@include mq(sm) {
+			padding: 0;
+		}
 		.about-text-container {
 			font-family: $poppins-regular;
 			.sup-text {

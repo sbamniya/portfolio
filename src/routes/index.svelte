@@ -9,9 +9,7 @@
 <Banner />
 <About />
 <Services />
-<br /><br />
 <CaseStudy />
-<br /><br />
 <Portfolio />
 
 <style></style>

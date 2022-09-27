@@ -7,11 +7,10 @@
 </script>
 
 <div class="main">
+	<Navbar />
 	<div class="main-container">
-		<Navbar />
 		<slot />
 	</div>
-	<br /> <br />
 	<Testimonial />
 	<Meproud />
 	<ContactMe />

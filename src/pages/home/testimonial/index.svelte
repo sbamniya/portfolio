@@ -6,7 +6,7 @@
 
 <section class="testimonial-container py-5">
 	<TitleAndSubtitle title="TESTIMONIALS" subTitle="What People Says" />
-	<div class="row pt-5">
+	<div class="pt-5">
 		<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
 			<div class="left-background" />
 			<div class="right-background" />
@@ -97,6 +97,7 @@
 
 <style scoped lang="scss">
 	@import './../../../assets/scss/variable';
+	@import './../../../assets/scss/mixins';
 	.testimonial-container {
 		.left-background {
 			position: absolute;
@@ -179,6 +180,21 @@
 		.carousel-control-next {
 			left: 36%;
 			border-radius: 0 10px 10px 0;
+		}
+		@include mq(sm) {
+			.left-background {
+				width: 90%;
+			}
+			text-align: center;
+			.slide-section {
+				width: 90%;
+				margin: auto;
+			}
+			.carousel-control-prev,
+			.carousel-control-next {
+				display: inline-flex;
+				position: static;
+			}
 		}
 	}
 </style>
