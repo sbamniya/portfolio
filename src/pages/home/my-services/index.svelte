@@ -26,7 +26,7 @@
 
 <section class="service-details py-5">
 	<TitleAndSubtitle title="Services" subTitle="Check My Services" />
-	<div class="row services-container">
+	<div class="row services-container pt-5">
 		{#each Services as service}
 			<div class="col-lg-4 col-xs-12">
 				<Card image={service.image} title={service.title} description={service.description} />

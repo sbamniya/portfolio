@@ -16,10 +16,12 @@
 		text-transform: uppercase;
 		font-size: 22px;
 		font-family: $poppins-regular;
+		margin: 0;
 	}
 	.title {
 		color: rgba($black, 0.81);
-		font-size: 36px;
+		font-size: 28px;
+		font-weight: 600;
 		font-family: $poppins-regular;
 	}
 </style>

@@ -6,7 +6,7 @@
 
 <section class="testimonial-container py-5">
 	<TitleAndSubtitle title="TESTIMONIALS" subTitle="What People Says" />
-	<div class="row">
+	<div class="row pt-5">
 		<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
 			<div class="left-background" />
 			<div class="right-background" />
@@ -163,23 +163,22 @@
 				}
 			}
 		}
-		.carousel-control-prev {
-			background-color: #fcc028;
-			position: absolute;
-			left: 30%;
-			width: 100px;
-			height: 70px;
-			border-radius: 10px 0 0 10px;
-			top: 160px;
-		}
+		.carousel-control-prev,
 		.carousel-control-next {
 			background-color: #fcc028;
 			position: absolute;
-			left: 38%;
 			width: 100px;
 			height: 70px;
-			border-radius: 0 10px 10px 0;
 			top: 160px;
+			opacity: 1;
+		}
+		.carousel-control-prev {
+			left: 30%;
+			border-radius: 10px 0 0 10px;
+		}
+		.carousel-control-next {
+			left: 36%;
+			border-radius: 0 10px 10px 0;
 		}
 	}
 </style>
