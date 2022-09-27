@@ -8,8 +8,8 @@
 <section class="contact-us-container pt-5">
 	<div class="row main-container">
 		<div class="col-sm-7 col-xs-12">
-			<div class="Contact-section pt-5">
-				<div class="px-5">
+			<div class="Contact-section pt-0 pt-sm-5">
+				<div class="px-0 px-sm-5 ">
 					<h3>Contact us</h3>
 					<span>
 						We are committed to processing the information in order to contact you and talk about
@@ -119,6 +119,9 @@
 
 		.footer-section {
 			padding: 100px 0;
+			@include mq(sm) {
+				padding: 30px 0;
+			}
 			.footer-leftside {
 				h2 {
 					color: $primary;

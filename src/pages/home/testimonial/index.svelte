@@ -194,6 +194,9 @@
 			.carousel-control-next {
 				display: inline-flex;
 				position: static;
+				width: 50px;
+				height: 50px;
+				padding: 15px;
 			}
 		}
 	}
