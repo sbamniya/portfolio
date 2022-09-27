@@ -92,7 +92,7 @@
 			width: 50%;
 			margin: auto;
 			justify-content: space-around;
-			font-size: 14px;
+			font-size: $font-14;
 		}
 	}
 	.brand {

@@ -3,7 +3,7 @@
 	import Left from './left.svelte';
 </script>
 
-<div class="row w-100 align-items-center position-relative py-5">
+<div class="row w-100 align-items-center position-relative py-0 py-sm-5">
 	<div class="col-lg-6 col-xs-12">
 		<Left />
 		<Feedback />

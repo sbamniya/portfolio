@@ -157,7 +157,7 @@
 				p {
 					font-weight: 400;
 					opacity: 0.5;
-					font-size: 14px;
+					font-size: $font-14;
 					padding-bottom: 20px;
 					width: 77%;
 					margin: auto;

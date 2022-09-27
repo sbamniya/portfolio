@@ -94,7 +94,7 @@
 			margin: auto;
 			.Contact-section {
 				span {
-					font-size: 14px;
+					font-size: $font-14;
 					color: #999;
 					margin-bottom: 20px;
 				}
@@ -105,7 +105,7 @@
 						width: 20px;
 					}
 					p {
-						font-size: 16px;
+						font-size: $font-16;
 						color: #999;
 					}
 				}
@@ -130,7 +130,7 @@
 				}
 				p {
 					color: #999;
-					font-size: 12px;
+					font-size: $font-12;
 				}
 			}
 			.footer-rightside {
@@ -147,12 +147,12 @@
 					}
 
 					li {
-						font-size: 18px;
+						font-size: $font-18;
 						padding-bottom: 20px;
 						a {
 							color: #999;
 							text-decoration: none;
-							font-size: 14px;
+							font-size: $font-14;
 						}
 					}
 				}

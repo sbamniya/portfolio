@@ -64,16 +64,16 @@
 			.sup-text {
 				color: $primary;
 				text-transform: uppercase;
-				font-size: 18px;
+				font-size: $font-18;
 			}
 			.title {
 				color: rgba($black, 0.81);
-				font-size: 36px;
+				font-size: $font-36;
 			}
 
 			.text {
 				color: rgba($black, 0.5);
-				font-size: 16px;
+				font-size: $font-16;
 				line-height: 26px;
 			}
 
@@ -92,7 +92,7 @@
 					}
 					.meta-title {
 						color: $primary;
-						font-size: 16px;
+						font-size: $font-16;
 					}
 				}
 			}

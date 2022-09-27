@@ -27,14 +27,14 @@
 
 		.card-title {
 			color: rgba($black, 0.81);
-			font-size: 18px;
+			font-size: $font-18;
 			font-family: $poppins-regular;
 		}
 
 		.card-text {
 			color: rgba($black, 0.5);
 			font-weight: 400;
-			font-size: 14px;
+			font-size: $font-14;
 			line-height: 22px;
 		}
 	}

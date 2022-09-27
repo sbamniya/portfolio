@@ -14,13 +14,13 @@
 	.heading {
 		color: $primary;
 		text-transform: uppercase;
-		font-size: 22px;
+		font-size: $font-22;
 		font-family: $poppins-regular;
 		margin: 0;
 	}
 	.title {
 		color: rgba($black, 0.81);
-		font-size: 28px;
+		font-size: $font-28;
 		font-weight: 600;
 		font-family: $poppins-regular;
 	}

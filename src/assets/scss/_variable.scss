@@ -3,13 +3,32 @@ $white: #fff;
 $black: #000;
 $green: #207733;
 
-$primary: #FCC028;
-
+$primary: #fcc028;
 
 // fonts
-$poppins-regular: "PoppinsRegular";
-$poppins-medium: "PoppinsMedium";
-$poppins-semibold: "PoppinsSemibold";
+$poppins-regular: 'PoppinsRegular';
+$poppins-medium: 'PoppinsMedium';
+$poppins-semibold: 'PoppinsSemibold';
 
 $primary-font: $poppins-medium;
-$logo-font: "ImperialScript"
+$logo-font: 'ImperialScript';
+
+$font-8: 8px;
+$font-12: 12px;
+$font-14: 14px;
+$font-16: 16px;
+$font-18: 18px;
+$font-22: 22px;
+$font-24: 24px;
+$font-26: 26px;
+$font-28: 28px;
+$font-30: 30px;
+$font-36: 36px;
+
+// margin
+
+$m-auto: auto;
+$m-zero: 0;
+// padding
+$p-auto: auto;
+$p-zero: 0;

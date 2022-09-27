@@ -16,6 +16,7 @@
 
 <style scoped lang="scss">
 	@import './../../../assets/scss/variable';
+	@import './../../../assets/scss/mixins';
 
 	.feedback-box {
 		position: absolute;
@@ -28,6 +29,11 @@
 		display: flex;
 		flex-wrap: wrap;
 		row-gap: 12px;
+		@include mq(sm) {
+			position: static;
+			width: 100%;
+			margin-top: 20px;
+		}
 
 		.feedback {
 			display: flex;
@@ -45,11 +51,11 @@
 				font-family: $poppins-regular;
 				.name {
 					color: $black;
-					font-size: 12px;
+					font-size: $font-12;
 				}
 				.date {
 					color: rgba($color: $black, $alpha: 0.5);
-					font-size: 12px;
+					font-size: $font-12;
 				}
 			}
 		}
@@ -58,7 +64,7 @@
 			font-family: $poppins-regular;
 			font-style: normal;
 			font-weight: 400;
-			font-size: 12px;
+			font-size: $font-12;
 			line-height: 20px;
 			color: rgba($color: $black, $alpha: 0.7);
 			margin-bottom: 0;

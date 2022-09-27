@@ -23,7 +23,7 @@
 		font-family: $poppins-regular;
 		.hello-text {
 			color: $primary;
-			font-size: 18px;
+			font-size: $font-18;
 		}
 
 		.name {
@@ -34,12 +34,12 @@
 
 		.title {
 			color: $green;
-			font-size: 22px;
+			font-size: $font-22;
 		}
 		.description {
 			line-height: 26px;
 			color: rgba($color: $black, $alpha: 0.5);
-			font-size: 16px;
+			font-size: $font-16;
 		}
 	}
 </style>

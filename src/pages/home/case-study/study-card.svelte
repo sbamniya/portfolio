@@ -34,16 +34,16 @@
 		font-family: $poppins-regular;
 		.counter {
 			color: $primary;
-			font-size: 26px;
+			font-size: $font-26;
 		}
 		.title {
 			color: rgba($black, 0.81);
-			font-size: 22px;
+			font-size: $font-22;
 			font-family: $poppins-regular;
 		}
 		.description {
 			color: rgba($black, 0.5);
-			font-size: 16px;
+			font-size: $font-16;
 			line-height: 26px;
 		}
 	}
