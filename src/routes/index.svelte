@@ -4,7 +4,6 @@
 	import CaseStudy from '../pages/home/case-study/index.svelte';
 	import Services from '../pages/home/my-services/index.svelte';
 	import Portfolio from '../pages/home/portfolio/index.svelte';
-	import Meproud from '../pages/home/me-proud/index.svelte';
 </script>
 
 <Banner />
@@ -14,6 +13,5 @@
 <CaseStudy />
 <br /><br />
 <Portfolio />
-<Meproud />
 
 <style></style>

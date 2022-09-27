@@ -1,6 +1,9 @@
 <script lang="ts">
 	import TitleAndSubtitle from './../../../comopnents/title-and-subtitle/index.svelte';
 	import slackImage from '../../../assets/images/slack logo.svg';
+	import dropImage from '../../../assets/images/dropbox logo.svg';
+	import googleImage from '../../../assets/images/google logo.svg';
+	import teslaImage from '../../../assets/images/tesla logo.svg';
 </script>
 
 <section class="meproud-container py-5">
@@ -11,13 +14,13 @@
 				<img src={slackImage} alt="slackImage" />
 			</div>
 			<div class="col-sm-3 col-xs-6 text-center my-4 my-sm-5">
-				<img src={slackImage} alt="slackImage" />
+				<img src={dropImage} alt="slackImage" />
 			</div>
 			<div class="col-sm-3 col-xs-6 text-center my-4 my-sm-5">
-				<img src={slackImage} alt="slackImage" />
+				<img src={googleImage} alt="slackImage" />
 			</div>
 			<div class="col-sm-3 col-xs-6 text-center my-4 my-sm-5">
-				<img src={slackImage} alt="slackImage" />
+				<img src={teslaImage} alt="slackImage" />
 			</div>
 		</div>
 	</div>

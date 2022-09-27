@@ -1,6 +1,8 @@
 <script>
 	import ContactMe from '../comopnents/footer/index.svelte';
 	import Navbar from '../comopnents/navbar/index.svelte';
+	import Meproud from '../pages/home/me-proud/index.svelte';
+	import Testimonial from '../pages/home/testimonial/index.svelte';
 	import './../assets/scss/_global.scss';
 </script>
 
@@ -10,6 +12,8 @@
 		<slot />
 	</div>
 	<br /> <br />
+	<Testimonial />
+	<Meproud />
 	<ContactMe />
 </div>
 
