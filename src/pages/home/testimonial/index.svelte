@@ -120,7 +120,7 @@
 			padding: 60px 0px 10px 0px;
 			text-align: center;
 			.textSection {
-				background-color: #fff;
+				background-color: $white;
 				box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 				padding: 60px 10px 10px 10px;
 				border-radius: 18px;
@@ -165,7 +165,7 @@
 		}
 		.carousel-control-prev,
 		.carousel-control-next {
-			background-color: #fcc028;
+			background-color: $primary;
 			position: absolute;
 			width: 100px;
 			height: 70px;

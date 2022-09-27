@@ -20,6 +20,11 @@
 <style scoped lang="scss">
 	.main {
 		height: 100vh;
+		background: linear-gradient(
+			180deg,
+			rgba(236, 178, 46, 0.0754) 0%,
+			rgba(255, 255, 255, 0.1144) 100%
+		);
 
 		.main-container {
 			width: 90%;

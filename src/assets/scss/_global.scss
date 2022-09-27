@@ -1,36 +1,37 @@
-@import "./variable";
+@import './variable';
 @import 'bootstrap/scss/bootstrap';
 
 @font-face {
-    font-family: 'ImperialScript';
-    src: url("./../fonts/ImperialScript-Regular.ttf");
+	font-family: 'ImperialScript';
+	src: url('./../fonts/ImperialScript-Regular.ttf');
 }
 @font-face {
-    font-family: 'PoppinsRegular';
-    src: url("./../fonts/poppins/Poppins-Regular.ttf");
+	font-family: 'PoppinsRegular';
+	src: url('./../fonts/poppins/Poppins-Regular.ttf');
 }
 @font-face {
-    font-family: 'PoppinsMedium';
-    src: url("./../fonts/poppins/Poppins-Medium.ttf");
+	font-family: 'PoppinsMedium';
+	src: url('./../fonts/poppins/Poppins-Medium.ttf');
 }
 @font-face {
-    font-family: 'PoppinsSemibold';
-    src: url("./../fonts/poppins/Poppins-SemiBold.ttf");
+	font-family: 'PoppinsSemibold';
+	src: url('./../fonts/poppins/Poppins-SemiBold.ttf');
 }
 
 @font-face {
-    font-family: 'PoppinsBold';
-    src: url("./../fonts/poppins/Poppins-Bold.ttf");
+	font-family: 'PoppinsBold';
+	src: url('./../fonts/poppins/Poppins-Bold.ttf');
 }
 
 body {
-    font-family: $primary-font;
+	font-family: $primary-font;
+	overflow-x: hidden;
 
-    img {
-        max-width: 100%;
-    }
+	img {
+		max-width: 100%;
+	}
 }
 
-.text-right{
-    text-align: right !important;
+.text-right {
+	text-align: right !important;
 }

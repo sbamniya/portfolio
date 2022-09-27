@@ -9,7 +9,7 @@
 <section class="meproud-container py-5">
 	<TitleAndSubtitle title="OUR CLIENTS" subTitle="Who Makes Me Proud" />
 	<div class="container">
-		<div class="row pt-5">
+		<div class="row pt-5 align-items-center">
 			<div class="col-sm-3 col-xs-6 text-center my-4 my-sm-5">
 				<img src={slackImage} alt="slackImage" />
 			</div>
