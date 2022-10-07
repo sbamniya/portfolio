@@ -37,7 +37,7 @@
 		</div>
 	</div>
 </nav> -->
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg fixed-top">
 	<div class="container-fluid">
 		<a class="navbar-brand brand" href="/">Sonu</a>
 		<button
@@ -54,18 +54,18 @@
 		<div class="collapse navbar-collapse nav-box" id="navbarSupportedContent">
 			<ul class="navbar-nav">
 				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="/">About Me</a>
+					<a class="nav-link active" aria-current="page" href="#about">About Me</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" aria-current="page" href="/">Services</a>
-				</li>
-
-				<li class="nav-item">
-					<a class="nav-link " aria-current="page" href="/">Portfolio</a>
+					<a class="nav-link" aria-current="page" href="#services">Services</a>
 				</li>
 
 				<li class="nav-item">
-					<a class="nav-link" aria-current="page" href="/">Contact Me</a>
+					<a class="nav-link " aria-current="page" href="#portfolio">Portfolio</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" aria-current="page" href="#contact">Contact Me</a>
 				</li>
 			</ul>
 			<HireMe />
@@ -76,27 +76,29 @@
 <style scoped lang="scss">
 	@import './../../assets/scss/variable';
 	@import './../../assets/scss/mixins';
-
-	.nav-box {
-		display: flex;
-		justify-content: space-between;
-		padding: 0;
-		@include mq(md) {
-			display: none;
+	.navbar {
+		background-color: #fefaf2;
+		.nav-box {
+			display: flex;
+			justify-content: space-between;
+			padding: 0;
+			@include mq(md) {
+				display: none;
+			}
+			.nav-link {
+				text-transform: uppercase;
+				cursor: pointer;
+			}
+			.navbar-nav {
+				width: 50%;
+				margin: auto;
+				justify-content: space-around;
+				font-size: $font-14;
+			}
 		}
-		.nav-link {
-			text-transform: uppercase;
-			cursor: pointer;
+		.brand {
+			font-family: $logo-font;
+			font-size: 50px;
 		}
-		.navbar-nav {
-			width: 50%;
-			margin: auto;
-			justify-content: space-around;
-			font-size: $font-14;
-		}
-	}
-	.brand {
-		font-family: $logo-font;
-		font-size: 50px;
 	}
 </style>

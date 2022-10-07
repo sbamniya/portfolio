@@ -5,7 +5,7 @@
 	import phoneIcon from '../../assets/images/icons/phone.svg';
 </script>
 
-<section class="contact-us-container pt-5">
+<section class="contact-us-container pt-5" id="contact">
 	<div class="row main-container">
 		<div class="col-sm-7 col-xs-12">
 			<div class="Contact-section pt-0 pt-sm-5">
@@ -76,7 +76,9 @@
 			</div>
 		</section>
 	</div>
-	<div class="footer-bottom" />
+	<div class="footer-bottom">
+		<p>Copyright © 2022 All Rights Reserved.</p>
+	</div>
 </section>
 
 <style scoped lang="scss">
@@ -160,7 +162,12 @@
 		}
 		.footer-bottom {
 			background-color: $primary;
-			height: 50px;
+			p {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 50px;
+			}
 		}
 	}
 </style>

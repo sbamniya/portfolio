@@ -8,7 +8,7 @@
 
 <div class="main">
 	<Navbar />
-	<div class="main-container">
+	<div class="main-container pt-5">
 		<slot />
 	</div>
 	<Testimonial />

@@ -24,7 +24,7 @@
 	];
 </script>
 
-<section class="about-section">
+<section class="about-section" id="about">
 	<div class="about-text-container">
 		<p class="sup-text">A bit</p>
 		<h3 class="title">About Me</h3>

@@ -24,7 +24,7 @@
 	];
 </script>
 
-<section class="service-details py-5">
+<section class="service-details py-5" id="services">
 	<TitleAndSubtitle title="Services" subTitle="Check My Services" />
 	<div class="row services-container pt-5">
 		{#each Services as service}

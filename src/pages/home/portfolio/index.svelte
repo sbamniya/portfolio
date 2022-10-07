@@ -17,7 +17,7 @@
 	];
 </script>
 
-<section class="portfolio-container py-5">
+<section class="portfolio-container py-5" id="portfolio">
 	<TitleAndSubtitle title="PORTFOLIO" subTitle="People Lie Work Don't" />
 	<div class="row">
 		{#each PortfolioItems as item}
