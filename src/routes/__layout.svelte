@@ -4,6 +4,7 @@
 	import Meproud from '../pages/home/me-proud/index.svelte';
 	import Testimonial from '../pages/home/testimonial/index.svelte';
 	import './../assets/scss/_global.scss';
+	export const ssr = false;
 </script>
 
 <div class="main">
