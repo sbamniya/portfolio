@@ -54,6 +54,7 @@
 <style scoped lang="scss">
 	@import './../../../assets/scss/variable';
 	@import './../../../assets/scss/mixins';
+
 	.about-section {
 		padding: 80px 0;
 		@include mq(sm) {
