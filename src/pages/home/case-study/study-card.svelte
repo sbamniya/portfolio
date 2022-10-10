@@ -32,6 +32,9 @@
 		margin-top: 50px;
 		align-items: center;
 		font-family: $poppins-regular;
+		img {
+			margin: 10px 0;
+		}
 		.counter {
 			color: $primary;
 			font-size: $font-26;
