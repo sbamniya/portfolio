@@ -1,16 +1,20 @@
+<script>
+	import Gulshan from './../../../assets/images/gulshan.jpeg';
+</script>
+
 <div class="feedback-box">
 	<div class="feedback">
 		<div class="image-container">
-			<img src="/banner-image.png" alt="" class="client-image" />
+			<img src={Gulshan} alt="" class="client-image" />
 		</div>
 		<div class="meta-details">
-			<div class="name">Phanny - Nigeria</div>
-			<div class="date">Sat 28 May 2022</div>
+			<div class="name">Gulshan</div>
+			<div class="date">1 Sept 2022</div>
 		</div>
 	</div>
 	<p class="feeback-text">
-		In just a few short years, I built the brand to millions of social media followers and websites
-		visitors.
+		Sonu is one of the person who brings all the skills & expertise as a IT professional. I gained a
+		variety of skills under his guidance that help me in every aspect.
 	</p>
 </div>
 

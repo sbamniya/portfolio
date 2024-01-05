@@ -4,8 +4,6 @@
 	export let title: string;
 	export let description: string;
 	export let imagePlacement: 'start' | 'end' = 'start';
-
-	import Button from './../../../comopnents/button/index.svelte';
 </script>
 
 <div class="row">
@@ -18,7 +16,6 @@
 		<p class="counter">{String(counter).padStart(2, 0)}</p>
 		<div class="title">{title}</div>
 		<p class="description">{description}</p>
-		<Button variant="outline">Details</Button>
 	</div>
 	{#if imagePlacement === 'end'}
 		<div class="col-sm-6 col-xs-12"><img src={image} alt={image} /></div>

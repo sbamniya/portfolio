@@ -9,7 +9,6 @@
 <Banner />
 <About />
 <Services />
-<CaseStudy />
 <Portfolio />
 
 <style></style>

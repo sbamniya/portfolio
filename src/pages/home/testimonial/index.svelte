@@ -1,7 +1,8 @@
 <script lang="ts">
-	import TitleAndSubtitle from './../../../comopnents/title-and-subtitle/index.svelte';
-	import profile from '../../../assets/images/profile.png';
-	// import Carousel from 'svelte-carousel';
+	import TitleAndSubtitle from '../../../components/title-and-subtitle/index.svelte';
+	import Devin from './../../../assets/images/devin.jpeg';
+	import Jaikant from './../../../assets/images/jaikant.jpeg';
+	import Chanchal from './../../../assets/images/chanchal.jpeg';
 </script>
 
 <section class="testimonial-container py-5">
@@ -10,65 +11,105 @@
 		<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
 			<div class="left-background" />
 			<div class="right-background" />
-			<!-- <div class="carousel-indicators">
-					<button
-						type="button"
-						data-bs-target="#carouselExampleDark"
-						data-bs-slide-to="0"
-						class="active"
-						aria-current="true"
-						aria-label="Slide 1"
-					/>
-					<button
-						type="button"
-						data-bs-target="#carouselExampleDark"
-						data-bs-slide-to="1"
-						aria-label="Slide 2"
-					/>
-					<button
-						type="button"
-						data-bs-target="#carouselExampleDark"
-						data-bs-slide-to="2"
-						aria-label="Slide 3"
-					/>
-				</div> -->
 			<div class="carousel-inner">
 				<div class="carousel-item active" data-bs-interval="10000">
 					<div class="slide-section">
 						<div class="textSection">
-							<img src={profile} alt="profile" />
+							<img src="/user.jpg" class="image" alt="profile" />
 							<p>
-								is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-								the industry's standard dummy text ever since the 1500s
+								If you want to work with a great team player who is a real coding rock star, then
+								look no further. Sonu will get your project to completion with ease while he guides
+								his team effortlessly! He has performed excellent in a fast-paced and at times
+								chaotic environment. Sonu had no problem delivering multiple exceptional quality
+								products with last minute changes from the design team. He did this with a smile on
+								his face and a great attitude! He was always eager to solve problems and keep the
+								projects moving forward. I hope to work with him again very soon! I cannot say
+								enough great things about Sonu!
 							</p>
-							<h5>Karmani</h5>
-							<p>FOUNDER AND CEO OF KARMANI</p>
+							<h5>Devin Newstead</h5>
+							<p>Director of Technology at BidWizer</p>
 						</div>
 					</div>
 				</div>
 				<div class="carousel-item" data-bs-interval="2000">
 					<div class="slide-section">
 						<div class="textSection">
-							<img src={profile} alt="profile" />
+							<img src="/user.jpg" alt="profile" class="image" />
 							<p>
-								is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-								the industry's standard dummy text ever since the 1500s
+								We have been working with Sunil for many years now. He is very reliable. I can
+								always trust him to get the job done in a timely and professional manner. Great
+								attention to detail.
 							</p>
-							<h5>Karmani</h5>
-							<p>FOUNDER AND CEO OF KARMANI</p>
+							<h5>Matthew Klynsmith</h5>
+							<p>Founder at Cerium Group</p>
 						</div>
 					</div>
 				</div>
-				<div class="carousel-item">
+				<div class="carousel-item" data-bs-interval="2000">
 					<div class="slide-section">
 						<div class="textSection">
-							<img src={profile} alt="profile" />
+							<img src="/user.jpg" alt="profile" class="image" />
 							<p>
-								is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-								the industry's standard dummy text ever since the 1500s
+								Sonu was excellent. I worked with him over the course of 4 months as we tweaked
+								things on our web applet / website. We did UI changes, added features like a chat
+								popout, and even some minute work like fine tuning WebP compression of user images
+								to minimize server load / usage and load time. Throughout this whole time, Sonu was
+								responsive, courteous, professional, and polite. He kindly listened to any bug fixes
+								we had or changes to the work and promptly took care of them. His timeliness,
+								responsiveness, and kindness, are rare traits in a developer that are extremely
+								important. After dealing with some substandard developers, I know the value of a
+								good one. He completely earned this excellent review
 							</p>
-							<h5>Karmani</h5>
-							<p>FOUNDER AND CEO OF KARMANI</p>
+							<h5>Akash Arora</h5>
+							<p>Founder at LitLounge.io</p>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item" data-bs-interval="2000">
+					<div class="slide-section">
+						<div class="textSection">
+							<img src="/user.jpg" alt="profile" class="image" />
+							<p>
+								It was a pleasure working with Sonu. The project took some time to complete, but
+								Sonu was always supportive of the changes required. Definitely recommend him to
+								consider for your next UI project!
+							</p>
+							<h5>Niranjan Patil</h5>
+							<p>Founder at Adagrad.ai</p>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item" data-bs-interval="2000">
+					<div class="slide-section">
+						<div class="textSection">
+							<img src="/user.jpg" alt="profile" class="image" />
+							<p>
+								I worked with Sonu for around 2 years and the skill set that he possess in frontend
+								technologies is excellent.Having experience in different frontend frameworks he is
+								capable enough to build the base of an application and lead the team through it. His
+								focus on code quality is also a skill to be appraised. Having a helpful nature makes
+								him the best team player and I really enjoyed working with him. I wish him good luck
+								for his new role and journey.
+							</p>
+							<h5>Jaikant</h5>
+							<p>Freelance QA Engineer</p>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item" data-bs-interval="2000">
+					<div class="slide-section">
+						<div class="textSection">
+							<img src="/user.jpg" alt="profile" class="image" />
+							<p>
+								Sonu and I’ve worked for around 3 years, he is one of the most dedicated software
+								professionals I’ve worked with, he is proactive, result-oriented, and responsible
+								and is not only a multi-skilled and insightful professional but also an inspiring
+								strategist. He has extreme problem-solving skills, he makes sure all the deadlines
+								are met and makes sure that whatever project he is working on meets the highest
+								standards.
+							</p>
+							<h5>Chanchal</h5>
+							<p>Senior QA Engineer</p>
 						</div>
 					</div>
 				</div>
@@ -99,6 +140,11 @@
 	@import './../../../assets/scss/variable';
 	@import './../../../assets/scss/mixins';
 	.testimonial-container {
+		.image {
+			border-radius: 100px;
+			height: 100px;
+			width: 100px;
+		}
 		.left-background {
 			position: absolute;
 			background-color: #fff1ff;

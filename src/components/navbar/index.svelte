@@ -1,5 +1,5 @@
 <script>
-	import HireMe from './../hireme/index.svelte';
+	import HireMe from '../hireme/index.svelte';
 </script>
 
 <!-- <nav class="navbar navbar-expand-lg">

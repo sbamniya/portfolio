@@ -1,6 +1,6 @@
 <script>
-	import ContactMe from '../comopnents/footer/index.svelte';
-	import Navbar from '../comopnents/navbar/index.svelte';
+	import ContactMe from '../components/footer/index.svelte';
+	import Navbar from '../components/navbar/index.svelte';
 	import Meproud from '../pages/home/me-proud/index.svelte';
 	import Testimonial from '../pages/home/testimonial/index.svelte';
 	import './../assets/scss/_global.scss';

@@ -1,25 +1,25 @@
 <script>
-	import Card from './../../../comopnents/card/index.svelte';
+	import Card from '../../../components/card/index.svelte';
 	import ServiceOne from '../../../assets/images/service-1.svg';
-	import TitleAndSubtitle from './../../../comopnents/title-and-subtitle/index.svelte';
+	import TitleAndSubtitle from '../../../components/title-and-subtitle/index.svelte';
 	const Services = [
 		{
 			image: ServiceOne,
-			title: 'Landing Page Design',
+			title: 'Full Stack Development',
 			description:
-				" is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+				'Proficient in React, Angular, Vue.js, Node.js, and Express.js for responsive UIs and high-performance APIs. A collaborative problem solver, adept at contributing across the development lifecycle. Adaptable to industry trends, committed to delivering top-notch solutions.'
 		},
 		{
 			image: ServiceOne,
-			title: 'Landing Page Design',
+			title: 'Frontend Development',
 			description:
-				" is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+				"Passionate about crafting innovative, responsive web interfaces and high-performance APIs. A collaborative problem solver committed to delivering top-notch solutions and staying abreast of industry trends. Let's elevate your projects together."
 		},
 		{
 			image: ServiceOne,
-			title: 'Landing Page Design',
+			title: 'Backend Development',
 			description:
-				" is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+				"Specializing in crafting seamless user experiences and robust backend architectures. A collaborative problem solver, dedicated to delivering top-notch solutions and staying current with industry trends. Let's discuss how my expertise can elevate your projects."
 		}
 	];
 </script>

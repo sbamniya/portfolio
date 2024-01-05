@@ -1,5 +1,5 @@
 <script lang="ts">
-	import TitleAndSubtitle from './../../../comopnents/title-and-subtitle/index.svelte';
+	import TitleAndSubtitle from '../../../components/title-and-subtitle/index.svelte';
 	import StudyCard from './study-card.svelte';
 	import CaseStudyImage from './../../../assets/images/case-study-1.svg';
 
@@ -9,77 +9,28 @@
 			counter: 1,
 			title: 'Bakery Landing Page Design',
 			description:
-				'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
-			button: {
-				text: '',
-				onClick: () => {}
-			}
+				'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'
 		},
 		{
 			image: CaseStudyImage,
 			counter: 2,
 			title: 'Bakery Landing Page Design',
 			description:
-				'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
-			button: {
-				text: '',
-				onClick: () => {}
-			}
+				'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'
 		},
 		{
 			image: CaseStudyImage,
 			counter: 3,
 			title: 'Bakery Landing Page Design',
 			description:
-				'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
-			button: {
-				text: '',
-				onClick: () => {}
-			}
+				'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'
 		},
 		{
 			image: CaseStudyImage,
 			counter: 4,
 			title: 'Bakery Landing Page Design',
 			description:
-				'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
-			button: {
-				text: '',
-				onClick: () => {}
-			}
-		},
-		{
-			image: CaseStudyImage,
-			counter: 5,
-			title: 'Bakery Landing Page Design',
-			description:
-				'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
-			button: {
-				text: '',
-				onClick: () => {}
-			}
-		},
-		{
-			image: CaseStudyImage,
-			counter: 6,
-			title: 'Bakery Landing Page Design',
-			description:
-				'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
-			button: {
-				text: '',
-				onClick: () => {}
-			}
-		},
-		{
-			image: CaseStudyImage,
-			counter: 7,
-			title: 'Bakery Landing Page Design',
-			description:
-				'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
-			button: {
-				text: '',
-				onClick: () => {}
-			}
+				'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'
 		}
 	];
 </script>

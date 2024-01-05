@@ -1,5 +1,5 @@
 <script lang="ts">
-	import TitleAndSubtitle from './../../../comopnents/title-and-subtitle/index.svelte';
+	import TitleAndSubtitle from '../../../components/title-and-subtitle/index.svelte';
 	import slackImage from '../../../assets/images/slack logo.svg';
 	import dropImage from '../../../assets/images/dropbox logo.svg';
 	import googleImage from '../../../assets/images/google logo.svg';

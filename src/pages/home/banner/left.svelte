@@ -1,6 +1,6 @@
 <script>
-	import HireMe from '../../../comopnents/hireme/index.svelte';
-	import DownloadCV from '../../../comopnents/download-cv/index.svelte';
+	import HireMe from '../../../components/hireme/index.svelte';
+	import DownloadCV from '../../../components/download-cv/index.svelte';
 </script>
 
 <section class="main-box">
@@ -8,9 +8,9 @@
 	<h3 class="name">Sonu Bamniya</h3>
 	<p class="title">Full Stack JavaScript Developer</p>
 	<p class="description">
-		I'm a top online marketer and branding expert, I started my career by lauching the popular
-		metaverse design, in just a few short years, I built the brand to millions of social media
-		followers and websites visitors.
+		I am a seasoned JavaScript Full Stack Developer with over 8 years of experience, specializing in
+		creating exceptional web applications. My passion lies in crafting innovative solutions that
+		blend seamless user experiences with robust backend architecture.
 	</p>
 	<HireMe />
 	<DownloadCV>Download CV</DownloadCV>

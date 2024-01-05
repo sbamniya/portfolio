@@ -1,18 +1,16 @@
 <script lang="ts">
-	import TitleAndSubtitle from './../../../comopnents/title-and-subtitle/index.svelte';
-	import PortfolioImage from './../../../assets/images/portfolio-1.svg';
+	import TitleAndSubtitle from '../../../components/title-and-subtitle/index.svelte';
+	import BidWizer from './../../../assets/images/bidwizer.png';
+	import ZestHRM from './../../../assets/images/zesthrm.png';
+
 	const PortfolioItems = [
 		{
-			image: PortfolioImage
+			image: ZestHRM,
+			link: 'https://www.zesthrm.com/'
 		},
 		{
-			image: PortfolioImage
-		},
-		{
-			image: PortfolioImage
-		},
-		{
-			image: PortfolioImage
+			image: BidWizer,
+			link: 'https://www.bidwizer.com/'
 		}
 	];
 </script>
@@ -21,8 +19,10 @@
 	<TitleAndSubtitle title="PORTFOLIO" subTitle="People Lie Work Don't" />
 	<div class="row">
 		{#each PortfolioItems as item}
-			<div class="col-sm-6 col-xs-12">
-				<img src={item.image} alt="" class="w-100" />
+			<div class="col-sm-6 col-xs-12 cursor-pointer">
+				<a href={item.link} target="_blank">
+					<img src={item.image} alt="" class="w-100 image" />
+				</a>
 			</div>
 		{/each}
 	</div>
@@ -33,6 +33,14 @@
 		.row {
 			row-gap: 20px;
 			margin-top: 50px;
+			.cursor-pointer {
+				cursor: pointer;
+			}
+
+			.image {
+				height: 100%;
+				border-radius: 10px;
+			}
 		}
 	}
 </style>
