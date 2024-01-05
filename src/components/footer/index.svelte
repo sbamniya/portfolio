@@ -17,9 +17,15 @@
 					</span>
 				</div>
 				<div class="Contact-detail">
-					<p><img src={mailIcon} alt="" />example@teamwebflow.com</p>
-					<p><img src={addressIcon} alt="" />4040 Lekki Summit Suite 402 Lake Manchester City</p>
-					<p><img src={phoneIcon} alt="" />+44 123 777 5401</p>
+					<p>
+						<img src={mailIcon} alt="" /><a href="mailto:sbamniya23@gmail.com"
+							>sbamniya23@gmail.com</a
+						>
+					</p>
+					<p><img src={addressIcon} alt="" />Indore, India</p>
+					<p>
+						<img src={phoneIcon} alt="" /><a href="tel:+918878220874">+91-88782-20874</a>
+					</p>
 				</div>
 			</div>
 		</div>

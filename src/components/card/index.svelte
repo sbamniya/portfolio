@@ -5,7 +5,7 @@
 </script>
 
 <div class="card">
-	<img src={image} class="card-img-top" alt="..." />
+	<img src={image} class="card-img-top image" alt="..." />
 	<div class="card-body">
 		<div class="card-title">{title}</div>
 		<p class="card-text">
@@ -24,6 +24,10 @@
 		border-radius: 25px;
 		overflow: hidden;
 		text-align: center;
+
+		.image {
+			height: 200px;
+		}
 
 		.card-title {
 			color: rgba($black, 0.81);

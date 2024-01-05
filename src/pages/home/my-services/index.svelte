@@ -1,22 +1,27 @@
 <script>
 	import Card from '../../../components/card/index.svelte';
-	import ServiceOne from '../../../assets/images/service-1.svg';
 	import TitleAndSubtitle from '../../../components/title-and-subtitle/index.svelte';
+
+	import ServiceOne from '../../../assets/images/service-1.svg';
+	import FullStack from '../../../assets/images/full-stack.jpeg';
+	import Frontend from '../../../assets/images/front-end.jpeg';
+	import Backend from '../../../assets/images/backend.png';
+
 	const Services = [
 		{
-			image: ServiceOne,
+			image: FullStack,
 			title: 'Full Stack Development',
 			description:
 				'Proficient in React, Angular, Vue.js, Node.js, and Express.js for responsive UIs and high-performance APIs. A collaborative problem solver, adept at contributing across the development lifecycle. Adaptable to industry trends, committed to delivering top-notch solutions.'
 		},
 		{
-			image: ServiceOne,
+			image: Frontend,
 			title: 'Frontend Development',
 			description:
 				"Passionate about crafting innovative, responsive web interfaces and high-performance APIs. A collaborative problem solver committed to delivering top-notch solutions and staying abreast of industry trends. Let's elevate your projects together."
 		},
 		{
-			image: ServiceOne,
+			image: Backend,
 			title: 'Backend Development',
 			description:
 				"Specializing in crafting seamless user experiences and robust backend architectures. A collaborative problem solver, dedicated to delivering top-notch solutions and staying current with industry trends. Let's discuss how my expertise can elevate your projects."
