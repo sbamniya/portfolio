@@ -36,9 +36,9 @@
 						<div class="textSection">
 							<img src="/user.jpg" alt="profile" class="image" />
 							<p>
-								We have been working with Sunil for many years now. He is very reliable. I can
-								always trust him to get the job done in a timely and professional manner. Great
-								attention to detail.
+								We have been working with Sonu for many years now. He is very reliable. I can always
+								trust him to get the job done in a timely and professional manner. Great attention
+								to detail.
 							</p>
 							<h5>Matthew Klynsmith</h5>
 							<p>Founder at Cerium Group</p>
