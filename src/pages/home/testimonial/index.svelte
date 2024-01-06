@@ -1,8 +1,5 @@
 <script lang="ts">
 	import TitleAndSubtitle from '../../../components/title-and-subtitle/index.svelte';
-	import Devin from './../../../assets/images/devin.jpeg';
-	import Jaikant from './../../../assets/images/jaikant.jpeg';
-	import Chanchal from './../../../assets/images/chanchal.jpeg';
 </script>
 
 <section class="testimonial-container py-5">
