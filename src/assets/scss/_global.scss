@@ -4,23 +4,28 @@
 @font-face {
 	font-family: 'ImperialScript';
 	src: url('./../fonts/ImperialScript-Regular.ttf');
+	font-display: swap;
 }
 @font-face {
 	font-family: 'PoppinsRegular';
 	src: url('./../fonts/poppins/Poppins-Regular.ttf');
+	font-display: swap;
 }
 @font-face {
 	font-family: 'PoppinsMedium';
 	src: url('./../fonts/poppins/Poppins-Medium.ttf');
+	font-display: swap;
 }
 @font-face {
 	font-family: 'PoppinsSemibold';
 	src: url('./../fonts/poppins/Poppins-SemiBold.ttf');
+	font-display: swap;
 }
 
 @font-face {
 	font-family: 'PoppinsBold';
 	src: url('./../fonts/poppins/Poppins-Bold.ttf');
+	font-display: swap;
 }
 
 body {
